@@ -55,10 +55,10 @@
         Base {
             display-name = "Base";
             bindings = <
-              &kp Q       &kp W       &kp E        &kp R         &kp T            &kp Y      &kp U        &kp I        &kp O       &kp P
-              &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G            &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C        &kp V         &kp B            &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
-                                      &gresc       &lt 1 TAB     &kp BACKSPACE    &kp SPACE  &lt 2 BSPC   &lt 3 MINUS
+            &kp Q       &kp W       &kp E        &kp R         &kp T            &kp Y      &kp U        &kp I        &kp O       &kp P
+            &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G            &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI APOSTROPHE
+&caps_word  &kp Z       &kp X       &kp C        &kp V         &kp B            &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH            &kp ENTER
+                                    &gresc       &lt 1 TAB     &kp BACKSPACE    &kp SPACE  &lt 2 ENTER  &lt 3 MINUS
             >;
         };
 
@@ -75,9 +75,9 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR  &kp PERCENT    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
-                &kp CARET  &kp AMPS  &kp ASTRK  &kp SQT     &kp DQT        &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&studio_unlock  &trans     &trans    &trans     &kp GRAVE   &kp TILDE      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &kp SLASH  &kp HOME
+                &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR  &kp PERCENT    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans
+                &kp CARET  &kp AMPS  &kp ASTRK  &kp SQT     &kp DQT        &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMI
+&studio_unlock  &trans     &trans    &trans     &kp GRAVE   &kp TILDE      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &kp SLASH  &kp HOME
                                      &trans     &trans      &trans         &trans  &trans                &trans
             >;
         };
