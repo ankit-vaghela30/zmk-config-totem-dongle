@@ -58,37 +58,37 @@
               &kp Q       &kp W       &kp E        &kp R         &kp T            &kp Y      &kp U        &kp I        &kp O       &kp P
               &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G            &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
 &lt 3 ESCAPE  &kp Z       &kp X       &kp C        &kp V         &kp B            &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
-                                      &gresc       &lt 1 TAB     &kp BACKSPACE    &kp SPACE  &lt 2 BSPC   &kp MINUS
+                                      &gresc       &lt 1 TAB     &kp BACKSPACE    &kp SPACE  &lt 2 BSPC   &lt 3 MINUS
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp TILDE       &trans     &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+              &kp TILDE       &kp HOME   &kp UP_ARROW  &kp END    &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
               &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
-                                         &trans        &trans     &trans      &trans    &trans        &kp DOT
+&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp EQUAL
+                                         &trans        &trans     &trans      &trans    &kp NUMBER_0  &kp DOT
             >;
         };
 
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-                &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&studio_unlock  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
-                                  &trans    &trans      &trans         &trans     &trans         &trans
+                &kp EXCL   &kp AT    &kp HASH   &kp DOLLAR  &kp PERCENT    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+                &kp CARET  &kp AMPS  &kp ASTRK  &kp SQT     &kp DQT        &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&studio_unlock  &trans     &trans    &trans     &kp GRAVE   &kp TILDE      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &kp SLASH  &kp HOME
+                                     &trans     &trans      &trans         &trans  &trans                &trans
             >;
         };
 
         Fun {
             display-name = "Fun";
             bindings = <
-        &bootloader  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
-        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
-&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
-                             &trans  &trans  &trans    &trans  &trans  &trans
+        &bootloader  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))    &trans         &trans  &trans  &kp END  &kp F1
+        &trans       &trans  &kp C_VOL_DN          &kp C_VOLUME_UP       &trans                  &trans         &trans  &trans  &trans   &kp F10
+&trans  &trans       &trans  &trans                &trans                &trans                  &kp LC(LG(N))  &trans  &trans  &trans   &kp F20  &kp F7
+                             &trans                &trans                &trans                  &trans         &trans  &trans
             >;
         };
 
